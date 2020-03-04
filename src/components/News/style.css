@@ -1,0 +1,15 @@
+.news-title {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 30px;
+}
+.news-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  width: 60%;
+  margin-top: 10px;
+}
