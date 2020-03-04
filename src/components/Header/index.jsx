@@ -31,17 +31,17 @@ const Header = () => {
         <div className="collapse navbar-collapse ml-3" id="navbarNavDropdown">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <NavLink exact className="nav-link" to="/">
+              <NavLink exact className="nav-link" to="blog-react/">
                 Home
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink exact className="nav-link" to="/profile">
+              <NavLink exact className="nav-link" to="blog-react/profile">
                 Profile
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink exact className="nav-link" to="/news">
+              <NavLink exact className="nav-link" to="blog-react/news">
                 News
               </NavLink>
             </li>
@@ -55,7 +55,7 @@ const Header = () => {
           ) : (
             <ul className="navbar-nav">
               <li className="nav-item">
-                <NavLink className="nav-link" to="/login">
+                <NavLink className="nav-link" to="blog-react/login">
                   Login
                 </NavLink>
               </li>
