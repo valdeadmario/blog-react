@@ -27,11 +27,11 @@ const Routing = () => {
       <Header />
       <div className="container">
         <Switch>
-          <GuestRoute exact path="blog-react/login" component={Login} />
-          <PrivateRoute exact path="blog-react/profile" component={Profile} />
+          <GuestRoute exact path="/login" component={Login} />
+          <PrivateRoute exact path="/profile" component={Profile} />
 
-          <Route exact path="blog-react/" component={HomePage} />
-          <Route exact path="blog-react/news" component={News} />
+          <Route exact path="/" component={HomePage} />
+          <Route exact path="/news" component={News} />
 
           <Route render={() => <NotFound />} />
         </Switch>
